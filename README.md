@@ -163,7 +163,7 @@ For security reasons, it's highly recommended to use a **token** instead of your
 
 In addition to your token, also add your **Factorio username**, which can be found on your profile page.
 
-![screen](./src/Credentials-settings.png)
+![screen](./image/Credentials-settings.png)
 
 When adding the token, leave the password field blank.
 
