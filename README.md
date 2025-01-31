@@ -275,7 +275,7 @@ Congratulations, you now have a running headless server! Quickly connect to your
 
 But we're not done yet...
 
-* **Firrewall**: We can activate the firewall on the PC to enhance its security, especially if you arre not behind a NAT.
+* **Firewall**: We can activate the firewall on the PC to enhance its security, especially if you arre not behind a NAT.
 * **Automated Launch**: To avoid having to type the command manually each time, we'll set up a service to launch automatically. This will make it easier to start your server without a simple click or command.
 * **Remote Management**: If you haven't already set up SSH (Secure Shell) access, it will ease the management of the server remotely.
 
