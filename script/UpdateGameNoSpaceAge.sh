@@ -6,8 +6,8 @@ echo 'Download Update'
 sudo -u factorio wget 'https://factorio.com/get-download/stable/headless/linux64' -O /tmp/factorio-headless.tar.xz
 
 echo 'Backup Files'
-sudo mkdir /opt/BackupFactorioUpdate
-sudo cp -r /opt/factorio/ /opt/BackupFactorio/
+sudo mkdir -p /opt/BackupFactorioUpdate
+sudo cp -r /opt/factorio/ /opt/BackupFactorioUpdate/$(date +%Y-%m-%d_%H-%M-%S)
 
 echo 'Install Update'
 sudo -u factorio tar -xf /tmp/factorio-headless.tar.xz -C /opt/
